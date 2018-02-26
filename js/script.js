@@ -26,16 +26,20 @@
 var pingArray = [];
 
 function pingPong(number) {
-    for (var index = 1; index <= number; index += 1) {
-        if (index % 15 === 0) {
-            pingArray.push("pingpong");
-        } else if (index % 5 === 0) {
-            pingArray.push("pong");
-        } else if (index % 3 === 0) {
-            pingArray.push("ping");
-        } else {
-            pingArray.push(index);
+    if(number <= 100){
+        for (var index = 1; index <= number; index += 1) {
+            if (index % 15 === 0) {
+                pingArray.push("pingpong");
+            } else if (index % 5 === 0) {
+                pingArray.push("pong");
+            } else if (index % 3 === 0) {
+                pingArray.push("ping");
+            } else {
+                pingArray.push(index);
+            }
         }
+    }else{
+        alert("enter Number less than or equal to 100");
     }
 }
 
