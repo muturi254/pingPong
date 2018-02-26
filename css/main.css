@@ -1,5 +1,5 @@
 .jumbotron{
-    background-image: url('/img/background.png');
+    background-image: url('../img/background.png');
     background-size: cover;
     height: 80vh;
 }
