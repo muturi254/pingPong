@@ -4,7 +4,8 @@
 Peter muturi
 
 ## Description
-
+![](https://muturi254.github.io/pingPong/img/s1.png)
+![](https://muturi254.github.io/pingPong/img/s2.png)
 
 ## Technology used
 
